@@ -1,24 +1,17 @@
-Estructura/Funcionamiento de la aplicacion:
- -Navigation menu: Fragment con recycler de numeros, dias, colores y favoritos.
- -En cada elemento Traduccion del recycler: Mantener para borrar (dialogo), clickar para actualizar traduccion.
- -Menu de opciones: Insertar traduccion, preferencias.
+Aplicación Android simple de traducciones con Room y Retrofit, ejecutado en json-server-master con el db.json adjuntado
 
- Problemas: Los metodos de Retrofit no funcionan correctamente, fallo en la respuesta. Error 404 al añadir una traduccion por ejemplo. 
+Estructura/Funcionamiento de la aplicación:
 
- He probado cambiando la ruta de varias maneras, porque los datos que recibe MainActivity (retrofit), son correctos (creo):
- @PUT("{tipo}")
-    fun guardarTraduccion(@Path("tipo") tipo: String, @Body traduccion: Traduccion): Call<Traduccion>
+-Navigation menu: Fragment con recycler de numeros, dias, colores y favoritos.
 
-@PUT("/{tipo}")
-    fun guardarTraduccion(@Path("tipo") tipo: String, @Body traduccion: Traduccion): Call<Traduccion>
-
-@PUT("palabras/{tipo}")
-    fun guardarTraduccion(@Path("tipo") tipo: String, @Body traduccion: Traduccion): Call<Traduccion>
+![image](https://github.com/mck21/Triolingo/assets/122030012/dba8a100-26fc-45f1-b744-cc8abf1f7588)
 
 
-Otro problema es con Room, que despues de testearlo, al rato me aparecia un error para migrar la version del schema de la BaseDatosRoom y que hiciera una clase para migrarlo...
- Pero al principio me funcionaba y al ejecutarlo en clase tampoco me daba problemas. Es cuando ejecuto en casa cuando salta una excepción al abrir Favoritos:
+-En cada elemento de los recycler: Mantener para borrar, clickar para actualizar traduccion.
 
- Caused by: java.lang.IllegalStateException: Room cannot verify the data integrity. Looks like you've changed schema but forgot to update the version number. You can simply fix this by increasing the version number.
+![image](https://github.com/mck21/Triolingo/assets/122030012/2fa12667-1d66-4a87-a28d-fdc3d98c3195)
+![image](https://github.com/mck21/Triolingo/assets/122030012/cfacd775-d611-4f86-b718-f801d5ffdf89)
 
- Creo que al ejecutarlo en otro equipo no va a dar problema pero me gustaria solucionarlo.
+-Menu de opciones: Insertar traduccion y preferencias.
+
+![image](https://github.com/mck21/Triolingo/assets/122030012/c2edcc8a-b655-4672-9ae2-f4ed63d69d33)
