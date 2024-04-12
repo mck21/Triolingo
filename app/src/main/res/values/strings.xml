@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectoFinal2_MarcosPalomero</string>
+    <string-array name="tipoPalabra">
+        <item>numeros</item>
+        <item>dias</item>
+        <item>colores</item>
+    </string-array>
+
+</resources>

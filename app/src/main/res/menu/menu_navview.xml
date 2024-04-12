@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_numeros"
+            android:icon="@drawable/filledseven"
+            android:title="Números"/>
+        <item
+            android:id="@+id/menu_dias"
+            android:icon="@drawable/week"
+            android:title="Días"/>
+        <item
+            android:id="@+id/menu_colores"
+            android:icon="@drawable/palette"
+            android:title="Colores"/>
+        <item
+            android:id="@+id/menu_favoritos"
+            android:icon="@drawable/filledheart"
+            android:title="Favoritos"/>
+    </group>
+
+</menu>
