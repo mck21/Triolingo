@@ -1,0 +1,110 @@
+{
+  "palabras": {
+    "colores": [
+      {
+        "espanol": "rojo",
+        "id": 16,
+        "ingles": "red"
+      },
+      {
+        "espanol": "azul",
+        "id": 17,
+        "ingles": "blue"
+      },
+      {
+        "espanol": "verde",
+        "id": 18,
+        "ingles": "green"
+      },
+      {
+        "espanol": "blanco",
+        "id": 19,
+        "ingles": "white"
+      },
+      {
+        "espanol": "negro",
+        "id": 20,
+        "ingles": "black"
+      }
+    ],
+    "dias": [
+      {
+        "espanol": "lunes",
+        "id": 11,
+        "ingles": "Monday"
+      },
+      {
+        "espanol": "martes",
+        "id": 12,
+        "ingles": "Tuesday"
+      },
+      {
+        "espanol": "miercoles",
+        "id": 13,
+        "ingles": "Wednesday"
+      },
+      {
+        "espanol": "jueves",
+        "id": 14,
+        "ingles": "Thursday"
+      },
+      {
+        "espanol": "viernes",
+        "id": 15,
+        "ingles": "Friday"
+      }
+    ],
+    "numeros": [
+      {
+        "espanol": "cero",
+        "id": 1,
+        "ingles": "zero"
+      },
+      {
+        "espanol": "uno",
+        "id": 2,
+        "ingles": "one"
+      },
+      {
+        "espanol": "dos",
+        "id": 3,
+        "ingles": "two"
+      },
+      {
+        "espanol": "tres",
+        "id": 4,
+        "ingles": "three"
+      },
+      {
+        "espanol": "cuatro",
+        "id": 5,
+        "ingles": "four"
+      },
+      {
+        "espanol": "cinco",
+        "id": 6,
+        "ingles": "five"
+      },
+      {
+        "espanol": "seis",
+        "id": 7,
+        "ingles": "six"
+      },
+      {
+        "espanol": "siete",
+        "id": 8,
+        "ingles": "seven"
+      },
+      {
+        "espanol": "ocho",
+        "id": 9,
+        "ingles": "eight"
+      },
+      {
+        "espanol": "nueve",
+        "id": 10,
+        "ingles": "nine"
+      }
+    ]
+  }
+}
