@@ -1,4 +1,4 @@
-Aplicación Android simple de traducciones con Room y Retrofit, ejecutado en json-server-master con el db.json adjuntado
+Aplicación Android de traducciones con Room y Retrofit, ejecutado en json-server-master con el db.json adjuntado
 
 Estructura/Funcionamiento de la aplicación:
 
