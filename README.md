@@ -39,7 +39,7 @@ Incluye insertar traducción y configurar preferencias.
   <img src="https://github.com/mck21/Triolingo/assets/122030012/c2edcc8a-b655-4672-9ae2-f4ed63d69d33" alt="Menu de Opciones" />
 </p>
 
-## Instalación
+## Colabora!
 
 ### Requisitos previos
 
@@ -47,7 +47,7 @@ Incluye insertar traducción y configurar preferencias.
 - [Kotlin](https://kotlinlang.org/) configurado como lenguaje principal.
 - [JSON Server](https://www.npmjs.com/package/json-server) instalado para servir el archivo `db.json`.
 
-### Pasos de Instalación
+### Pasos
 
 1. Clona el repositorio:
     ```bash
