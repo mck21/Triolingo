@@ -1,5 +1,10 @@
 # Triolingo - Aplicación de Traducciones
 
+<div align="center">
+  <a href="https://github.com/mck21/Triolingo/blob/master/README_en.md">🇬🇧 - English</a>
+</div>
+<br>
+
 Aplicación Android de traducciones simples que utiliza **Room** y **Retrofit** para almacenar y sincronizar datos, ejecutada en `json-server-master` con un archivo `db.json`.
 
 ## Stack Tecnológico
